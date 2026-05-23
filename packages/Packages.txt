@@ -1,0 +1,3 @@
+Costura.Fody.6.2.0
+Fody.6.9.3
+FolderBrowserEx.1.0.1
