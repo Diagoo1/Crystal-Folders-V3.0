@@ -1,6 +1,10 @@
 MIT License
 
-Copyright (c) 2026 Diagoo1
+Copyright (c) 2026-2027 Crystal Folders Project
+
+Maintained by Tarek Sadek (Diagoo1)
+
+Original Creator (v1.x): Génesis Toxical
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +23,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 📋 Additional Notes
+
+- **Crystal Folders** is a free and open-source project
+- Icon customization relies on Windows desktop.ini functionality
+- The software does not collect any personal data
+- Use at your own discretion — the author is not responsible for any data loss
+
+## 🔗 Third-Party Components
+
+| Component | License |
+|-----------|---------|
+| [FolderBrowserEx](https://github.com/evaristocuesta/FolderBrowserEx) | MIT License |
+| [Costura.Fody](https://github.com/Fody/Costura) | MIT License |
+
+## 👥 Contributors
+
+- **Génesis Toxical** — Original concept and v1.x development
+- **Tarek Sadek (Diagoo1)** — Complete v3.0 rebuild, UI/UX redesign, multi-language support, tray system, toast notifications, and ongoing maintenance
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the open-source community**
+
+</div>
