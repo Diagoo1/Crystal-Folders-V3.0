@@ -1,9 +1,7 @@
 MIT License
 
 Copyright (c) 2026-2027 Crystal Folders Project
-
 Maintained by Tarek Sadek (Diagoo1)
-
 Original Creator (v1.x): Génesis Toxical
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,31 +22,82 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
+===============================================================================
 
-## 📋 Additional Notes
+About This Project
 
-- **Crystal Folders** is a free and open-source project
-- Icon customization relies on Windows desktop.ini functionality
-- The software does not collect any personal data
-- Use at your own discretion — the author is not responsible for any data loss
+Crystal Folders is a free and open-source Windows application that allows you to
+customize folder icons with ease. The software is provided free of charge and
+will remain so forever.
 
-## 🔗 Third-Party Components
+The icon customization functionality relies on Windows desktop.ini mechanism,
+which is a standard Windows feature. The software does not collect, store, or
+transmit any personal data. No internet connection is required for core
+functionality.
 
-| Component | License |
-|-----------|---------|
-| [FolderBrowserEx](https://github.com/evaristocuesta/FolderBrowserEx) | MIT License |
-| [Costura.Fody](https://github.com/Fody/Costura) | MIT License |
+While the software has been tested extensively, it is provided "as is" without
+any warranties. You use it at your own discretion. The author is not responsible
+for any data loss, system issues, or other damages that may occur from using
+this software.
 
-## 👥 Contributors
+===============================================================================
 
-- **Génesis Toxical** — Original concept and v1.x development
-- **Tarek Sadek (Diagoo1)** — Complete v3.0 rebuild, UI/UX redesign, multi-language support, tray system, toast notifications, and ongoing maintenance
+Third-Party Components
 
----
+This project uses the following open-source libraries:
+
+• FolderBrowserEx
+  └── License: MIT License
+  └── Author: Evaristo Cuesta
+  └── Purpose: Multi-select folder browser dialog
+
+• Costura.Fody
+  └── License: MIT License
+  └── Author: Simon Cropp
+  └── Purpose: Embedding dependencies into a single executable
+
+• Fody
+  └── License: MIT License
+  └── Author: Simon Cropp
+  └── Purpose: Weaver infrastructure for Costura
+
+===============================================================================
+
+Project Credits
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Role                      │ Developer                                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ Original Creator (v1.x)   │ Génesis Toxical                                │
+│ v2.0 Lead Developer       │ Tarek Sadek (Diagoo1)                          │
+│ v3.0 Complete Rebuild     │ Tarek Sadek (Diagoo1)                          │
+│ Ongoing Maintenance       │ Tarek Sadek (Diagoo1)                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+===============================================================================
+
+Support the Project
+
+If you find Crystal Folders useful and would like to support continued
+development, you can:
+
+  • Star the project on GitHub
+  • Share it with others who might benefit
+  • Report bugs and suggest improvements
+  • Contribute code or translations
+  • Buy me a coffee at: https://ko-fi.com/diagoo1
+
+===============================================================================
+
+Contact Information
+
+• GitHub: https://github.com/Diagoo1/Crystal-Folders-V3.0
+• Email: tarek.sadek44@gmail.com
+
+===============================================================================
 
 <div align="center">
 
-**Made with ❤️ for the open-source community**
+Made with love for the open-source community
 
 </div>
