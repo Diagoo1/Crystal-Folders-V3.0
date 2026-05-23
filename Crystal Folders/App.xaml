@@ -1,0 +1,220 @@
+﻿<Application x:Class="CrystalFolders.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Default Language -->
+                <ResourceDictionary Source="Lang/Lang-EN.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- ============================================ -->
+            <!-- DEFINED FONTS FOR EACH LANGUAGE -->
+            <!-- ============================================ -->
+            <FontFamily x:Key="Font_EN">pack://application:,,,/Fonts/#Satoshi Variable, pack://application:,,,/Fonts/#29LT Bukra Regular</FontFamily>
+            <FontFamily x:Key="Font_FR">pack://application:,,,/Fonts/#Jura Medium, pack://application:,,,/Fonts/#29LT Bukra Regular</FontFamily>
+            <FontFamily x:Key="Font_ES">pack://application:,,,/Fonts/#Jura Medium, pack://application:,,,/Fonts/#29LT Bukra Regular</FontFamily>
+            <FontFamily x:Key="Font_RU">pack://application:,,,/Fonts/#Stem-Regular, pack://application:,,,/Fonts/#29LT Bukra Regular</FontFamily>
+            <FontFamily x:Key="Font_AR">pack://application:,,,/Fonts/#29LT Bukra Regular, pack://application:,,,/Fonts/#Satoshi Variable</FontFamily>
+
+            <!-- Default Global Font (Will be dynamically changed via C#) -->
+            <FontFamily x:Key="GlobalFontFamily">pack://application:,,,/Fonts/#Satoshi Variable, pack://application:,,,/Fonts/#29LT Bukra Regular</FontFamily>
+
+            <!-- ============================================ -->
+            <!-- GLOBAL FONT STYLES -->
+            <!-- ============================================ -->
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="FontFamily" Value="{DynamicResource GlobalFontFamily}"/>
+            </Style>
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="FontFamily" Value="{DynamicResource GlobalFontFamily}"/>
+            </Style>
+
+            <!-- ============================================ -->
+            <!-- LIGHT MODE COLORS -->
+            <!-- ============================================ -->
+            <SolidColorBrush x:Key="WindowBg" Color="#F1F5F9"/>
+            <SolidColorBrush x:Key="SidebarBg" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="CardBg" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="MainText" Color="#1E293B"/>
+            <SolidColorBrush x:Key="SubText" Color="#64748B"/>
+            <SolidColorBrush x:Key="Accent" Color="#0EA5E9"/>
+            <SolidColorBrush x:Key="BorderBrush" Color="#E2E8F0"/>
+            <SolidColorBrush x:Key="Border" Color="#E2E8F0"/>
+            <SolidColorBrush x:Key="HoverBg" Color="#E2E8F0"/>
+            <SolidColorBrush x:Key="TotalCardBg" Color="#F8FAFC"/>
+            <SolidColorBrush x:Key="Success" Color="#22C55E"/>
+            <SolidColorBrush x:Key="Warning" Color="#EF4444"/>
+            <SolidColorBrush x:Key="Error" Color="#EF4444"/>
+            <SolidColorBrush x:Key="Info" Color="#F97316"/>
+            <SolidColorBrush x:Key="Purple" Color="#8B5CF6"/>
+            <SolidColorBrush x:Key="Pink" Color="#EC4899"/>
+            <SolidColorBrush x:Key="Indigo" Color="#6366F1"/>
+            <SolidColorBrush x:Key="Teal" Color="#14B8A6"/>
+            <SolidColorBrush x:Key="Violet" Color="#A855F7"/>
+            <SolidColorBrush x:Key="Fuchsia" Color="#D946EF"/>
+            <SolidColorBrush x:Key="BlueLight" Color="#2585F0"/>
+            <SolidColorBrush x:Key="BlueMedium" Color="#3B82F6"/>
+            <SolidColorBrush x:Key="BlueViolet" Color="#636FF4"/>
+            <SolidColorBrush x:Key="PurpleLight" Color="#8B5CF2"/>
+
+            <!-- ============================================ -->
+            <!-- DARK MODE COLORS -->
+            <!-- ============================================ -->
+            <SolidColorBrush x:Key="WindowBgDark" Color="#202020"/>
+            <SolidColorBrush x:Key="SidebarBgDark" Color="#2D2D2D"/>
+            <SolidColorBrush x:Key="CardBgDark" Color="#2D2D2D"/>
+            <SolidColorBrush x:Key="MainTextDark" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="SubTextDark" Color="#A0A0A0"/>
+            <SolidColorBrush x:Key="AccentDark" Color="#0EA5E9"/>
+            <SolidColorBrush x:Key="BorderBrushDark" Color="#404040"/>
+            <SolidColorBrush x:Key="BorderDark" Color="#404040"/>
+            <SolidColorBrush x:Key="HoverBgDark" Color="#404040"/>
+            <SolidColorBrush x:Key="TotalCardBgDark" Color="#252525"/>
+            <SolidColorBrush x:Key="SuccessDark" Color="#22C55E"/>
+            <SolidColorBrush x:Key="WarningDark" Color="#EF4444"/>
+            <SolidColorBrush x:Key="ErrorDark" Color="#EF4444"/>
+            <SolidColorBrush x:Key="InfoDark" Color="#F97316"/>
+            <SolidColorBrush x:Key="PurpleDark" Color="#8B5CF6"/>
+            <SolidColorBrush x:Key="PinkDark" Color="#EC4899"/>
+            <SolidColorBrush x:Key="IndigoDark" Color="#6366F1"/>
+            <SolidColorBrush x:Key="TealDark" Color="#14B8A6"/>
+            <SolidColorBrush x:Key="VioletDark" Color="#A855F7"/>
+            <SolidColorBrush x:Key="FuchsiaDark" Color="#D946EF"/>
+            <SolidColorBrush x:Key="BlueLightDark" Color="#2585F0"/>
+            <SolidColorBrush x:Key="BlueMediumDark" Color="#3B82F6"/>
+            <SolidColorBrush x:Key="BlueVioletDark" Color="#636FF4"/>
+            <SolidColorBrush x:Key="PurpleLightDark" Color="#8B5CF2"/>
+
+            <!-- ============================================ -->
+            <!-- DYNAMIC RESOURCES -->
+            <!-- ============================================ -->
+            <SolidColorBrush x:Key="DynamicWindowBg" Color="#202020"/>
+            <SolidColorBrush x:Key="DynamicSidebarBg" Color="#2D2D2D"/>
+            <SolidColorBrush x:Key="DynamicCardBg" Color="#2D2D2D"/>
+            <SolidColorBrush x:Key="DynamicMainText" Color="#FFFFFF"/>
+            <SolidColorBrush x:Key="DynamicSubText" Color="#A0A0A0"/>
+            <SolidColorBrush x:Key="DynamicAccent" Color="#0EA5E9"/>
+            <SolidColorBrush x:Key="DynamicBorderBrush" Color="#404040"/>
+            <SolidColorBrush x:Key="DynamicDashBorder" Color="#94A3B8"/>
+            <SolidColorBrush x:Key="DynamicDashBorderDark" Color="#64748B"/>
+            <SolidColorBrush x:Key="DynamicBorder" Color="#404040"/>
+            <SolidColorBrush x:Key="DynamicHoverBg" Color="#404040"/>
+            <SolidColorBrush x:Key="DynamicTotalCardBg" Color="#252525"/>
+            <SolidColorBrush x:Key="DynamicSuccess" Color="#22C55E"/>
+            <SolidColorBrush x:Key="DynamicWarning" Color="#EF4444"/>
+            <SolidColorBrush x:Key="DynamicError" Color="#EF4444"/>
+            <SolidColorBrush x:Key="DynamicInfo" Color="#F97316"/>
+            <SolidColorBrush x:Key="DynamicPurple" Color="#8B5CF6"/>
+            <SolidColorBrush x:Key="DynamicPink" Color="#EC4899"/>
+            <SolidColorBrush x:Key="DynamicIndigo" Color="#6366F1"/>
+            <SolidColorBrush x:Key="DynamicTeal" Color="#14B8A6"/>
+            <SolidColorBrush x:Key="DynamicViolet" Color="#A855F7"/>
+            <SolidColorBrush x:Key="DynamicFuchsia" Color="#D946EF"/>
+            <SolidColorBrush x:Key="DynamicBlueLight" Color="#2585F0"/>
+            <SolidColorBrush x:Key="DynamicBlueMedium" Color="#3B82F6"/>
+            <SolidColorBrush x:Key="DynamicBlueViolet" Color="#636FF4"/>
+            <SolidColorBrush x:Key="DynamicPurpleLight" Color="#8B5CF2"/>
+
+            <!-- ============================================ -->
+            <!-- GRADIENTS -->
+            <!-- ============================================ -->
+            <LinearGradientBrush x:Key="AccentGradient" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0EA5E9" Offset="0"/>
+                <GradientStop Color="#0284C7" Offset="1"/>
+            </LinearGradientBrush>
+
+            <DropShadowEffect x:Key="CardShadow" BlurRadius="15" ShadowDepth="0" Opacity="0.08" Color="#000000"/>
+
+            <!-- ============================================ -->
+            <!-- STYLES -->
+            <!-- ============================================ -->
+            <Style x:Key="IconBox" TargetType="Border">
+                <Setter Property="Width" Value="32"/>
+                <Setter Property="Height" Value="32"/>
+                <Setter Property="CornerRadius" Value="8"/>
+                <Setter Property="Margin" Value="0,0,10,0"/>
+            </Style>
+
+            <Style x:Key="StaticCard" TargetType="Border">
+                <Setter Property="Background" Value="{DynamicResource DynamicCardBg}"/>
+                <Setter Property="BorderBrush" Value="{DynamicResource DynamicBorderBrush}"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="CornerRadius" Value="14"/>
+                <Setter Property="Padding" Value="16"/>
+            </Style>
+
+            <Style x:Key="IconButton" TargetType="Button">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Width" Value="35"/>
+                <Setter Property="Height" Value="35"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Foreground" Value="{DynamicResource DynamicSubText}"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="bd" Background="{TemplateBinding Background}" CornerRadius="8">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="bd" Property="Background" Value="{DynamicResource DynamicHoverBg}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource DynamicMainText}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ModernGradientBtn" TargetType="Button">
+                <Setter Property="Background" Value="{StaticResource AccentGradient}"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="FontWeight" Value="SemiBold"/>
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="Height" Value="42"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="bd" Background="{TemplateBinding Background}" CornerRadius="10">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="bd" Property="Opacity" Value="0.85"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ModernSwitch" TargetType="ToggleButton">
+                <Setter Property="Width" Value="42"/>
+                <Setter Property="Height" Value="22"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ToggleButton">
+                            <Border x:Name="Border" CornerRadius="11" Background="{DynamicResource DynamicBorderBrush}" Padding="3">
+                                <Ellipse x:Name="Knob" Width="16" Height="16" Fill="{DynamicResource DynamicSubText}" HorizontalAlignment="Left"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsChecked" Value="True">
+                                    <Setter TargetName="Border" Property="Background" Value="{StaticResource AccentGradient}"/>
+                                    <Setter TargetName="Knob" Property="HorizontalAlignment" Value="Right"/>
+                                    <Setter TargetName="Knob" Property="Fill" Value="White"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

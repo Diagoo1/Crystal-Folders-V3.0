@@ -1,0 +1,183 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ============ DIRECTION & FONT ============ -->
+    <FlowDirection x:Key="AppFlowDirection">LeftToRight</FlowDirection>
+
+    <!-- ============ APP IDENTITY ============ -->
+    <sys:String x:Key="AppTitle">Crystal Folders</sys:String>
+    <sys:String x:Key="AppSettings">Application Settings</sys:String>
+    <sys:String x:Key="AboutApp">About</sys:String>
+
+    <!-- ============ MAIN WINDOW ============ -->
+    <sys:String x:Key="ManageFolders">Manage Folders</sys:String>
+    <sys:String x:Key="DragHere">Drag &amp; drop folders here</sys:String>
+    <sys:String x:Key="DragHereSub">Or click Browse to select</sys:String>
+    <sys:String x:Key="Browse">Browse</sys:String>
+    <sys:String x:Key="Remove">Remove</sys:String>
+    <sys:String x:Key="RemoveAll">Remove All</sys:String>
+    <sys:String x:Key="Folders">Folders</sys:String>
+    <sys:String x:Key="SubFolders">Sub-Folders</sys:String>
+    <sys:String x:Key="SubFoldersRestoreMode">Include Subfolders</sys:String>
+    <sys:String x:Key="SubFoldersRestoreDesc">Custom icons will be removed from subfolders as well</sys:String>
+    <sys:String x:Key="AppSignature">Folder Icon By: Crystal Folders</sys:String>
+    <sys:String x:Key="IniComment2">Developer</sys:String>
+    <sys:String x:Key="ClearCache">Clear Icon Cache</sys:String>
+    <sys:String x:Key="ClearingCache">Clearing icon cache...</sys:String>
+    <sys:String x:Key="CacheClearedSuccess">Icon cache cleared successfully! Explorer restarted.</sys:String>
+    <sys:String x:Key="CacheClearFailed">Failed to clear icon cache. Try running as administrator.</sys:String>
+    <sys:String x:Key="Confirm">Confirm</sys:String>
+    <sys:String x:Key="ClearCacheWarning">This will restart Windows Explorer. Please save your work before continuing.</sys:String>
+    <sys:String x:Key="Yes">Yes</sys:String>
+    <sys:String x:Key="No">No</sys:String>
+    <sys:String x:Key="SubFoldersIncluded">Include subfolders</sys:String>
+    <sys:String x:Key="SubFoldersIncludedDesc">The icon will be applied to all subfolders</sys:String>
+    <sys:String x:Key="SubFoldersIncludedToast">{0} subfolders included</sys:String>
+    <sys:String x:Key="SubFoldersRestoreToast">{0} subfolders will be restored</sys:String>
+    <sys:String x:Key="SubFoldersExcluded">Subfolders excluded</sys:String>
+
+    <!-- ============ ICON PREVIEW ============ -->
+    <sys:String x:Key="IconPreview">Icon Preview</sys:String>
+    <sys:String x:Key="ChooseIcon">Choose Icon</sys:String>
+    <sys:String x:Key="Restore">Restore</sys:String>
+    <sys:String x:Key="NormalMode">Normal Mode</sys:String>
+    <sys:String x:Key="RestoreToDefault">Restore to Default</sys:String>
+    <sys:String x:Key="IconConverter">Icon Converter</sys:String>
+    <sys:String x:Key="IconFiles">Icon Files</sys:String>
+
+    <!-- ============ SETTINGS PANEL ============ -->
+    <sys:String x:Key="Settings">Settings</sys:String>
+    <sys:String x:Key="IncludeSubfolders">Include Sub-folders</sys:String>
+    <sys:String x:Key="IncludeSubfoldersDesc">Apply icon to internal folder structure</sys:String>
+    <sys:String x:Key="PortableMode">Portable Mode</sys:String>
+    <sys:String x:Key="PortableModeDesc">Save settings next to the application</sys:String>
+    <sys:String x:Key="ApplyCustomization">Apply Customization</sys:String>
+
+    <sys:String x:Key="ContextMenuHelp">Help - Context Menu Integration</sys:String>
+    <sys:String x:Key="ContextMenuHelpTitle">Context Menu Integration</sys:String>
+    <sys:String x:Key="ContextMenuHelpDesc">When enabled, Crystal Folders adds convenient shortcuts to your Windows right-click menu, allowing you to quickly access key features from anywhere.</sys:String>
+    <sys:String x:Key="ContextMenuFolders">Folders</sys:String>
+    <sys:String x:Key="ContextMenuFoldersDesc">Right-click any folder to customize its icon instantly</sys:String>
+    <sys:String x:Key="ContextMenuImages">Images</sys:String>
+    <sys:String x:Key="ContextMenuImagesDesc">Right-click PNG, JPG, or BMP to convert to ICO</sys:String>
+    <sys:String x:Key="ContextMenuNote">Note: Changes take effect after clicking "Apply Changes"</sys:String>
+
+    <!-- ============ PORTABLE HELP DIALOG ============ -->
+    <sys:String x:Key="PortableHelpTitle">Portable Mode Instructions</sys:String>
+    <sys:String x:Key="PortableHelpDesc">The icon will be saved inside the folder directly so it keeps its appearance when moved to any other device.</sys:String>
+    <sys:String x:Key="OK">OK</sys:String>
+
+    <!-- ============ SETTINGS WINDOW ============ -->
+    <sys:String x:Key="General">GENERAL</sys:String>
+    <sys:String x:Key="Language">Language</sys:String>
+    <sys:String x:Key="ChoosePreferredInterface">Choose your preferred interface language</sys:String>
+    <sys:String x:Key="EnglishUS">English (US)</sys:String>
+    <sys:String x:Key="Arabic">Arabic</sys:String>
+    <sys:String x:Key="Spanish">Spanish</sys:String>
+    <sys:String x:Key="French">French</sys:String>
+    <sys:String x:Key="Russian">Russian</sys:String>
+
+    <sys:String x:Key="Appearance">APPEARANCE</sys:String>
+    <sys:String x:Key="DarkMode">Dark Mode</sys:String>
+    <sys:String x:Key="GlobalTheme">Global application theme</sys:String>
+    <sys:String x:Key="WindowOpacity">Window Opacity</sys:String>
+    <sys:String x:Key="AdjustTransparency">Adjust window transparency level</sys:String>
+
+    <sys:String x:Key="System">SYSTEM</sys:String>
+    <sys:String x:Key="RunAtStartup">Run at Startup</sys:String>
+    <sys:String x:Key="LaunchAutomatically">Launch automatically with Windows</sys:String>
+    <sys:String x:Key="MinimizeToTray">Minimize to Tray</sys:String>
+    <sys:String x:Key="CloseToTrayDescription">Close to system tray instead of exit</sys:String>
+    
+    <sys:String x:Key="ContextMenuIntegration">Context Menu Integration</sys:String>
+    <sys:String x:Key="ShowInRightClickMenu">Show in right-click menu</sys:String>
+    <sys:String x:Key="CustomizeWithCrystalFolders">Customize with Crystal Folders</sys:String>
+    <sys:String x:Key="ConvertToIcon">Convert to Icon</sys:String>
+    <sys:String x:Key="ContextMenuEnabled">Context menu enabled successfully</sys:String>
+    <sys:String x:Key="ContextMenuDisabled">Context menu disabled</sys:String>
+    <sys:String x:Key="ContextMenuError">Context menu error</sys:String>
+
+    <sys:String x:Key="SoftwareVersion">Crystal Folders v3.0</sys:String>
+    <sys:String x:Key="ChangesSavedOnClose">Changes will be saved on close</sys:String>
+    <sys:String x:Key="ApplyChanges">Apply Changes</sys:String>
+    <sys:String x:Key="ReportBug">Report a Bug</sys:String>
+
+    <!-- ============ ABOUT WINDOW ============ -->
+    <sys:String x:Key="VersionBuild">Version 3.0 • Build 2026</sys:String>
+    <sys:String x:Key="ProfessionalSolution">A professional solution for customizing folder icons with style and ease. Built for designers and power users.</sys:String>
+    <sys:String x:Key="Website">Website</sys:String>
+    <sys:String x:Key="Donate">Donate</sys:String>
+    <sys:String x:Key="Email">Email</sys:String>
+    <sys:String x:Key="MadeWithLove_Part1">Made with</sys:String>
+    <sys:String x:Key="MadeWithLove_Part2">by</sys:String>
+    <sys:String x:Key="DeveloperName">Tarek Sadek</sys:String>
+    <sys:String x:Key="LeadDesigner">Lead Designer &amp; Developer</sys:String>
+    <sys:String x:Key="Activated">Activated</sys:String>
+    <sys:String x:Key="AllRightsReserved">© 2026 All Rights Reserved</sys:String>
+
+    <!-- ============ ICON COVERTER WINDOW ============ -->
+    <sys:String x:Key="IconConverterTitle">Image to Icon Converter</sys:String>
+    <sys:String x:Key="DragImageHere">Drag an image here (PNG, JPG)</sys:String>
+    <sys:String x:Key="OrBrowseImage">Or click to browse from your device</sys:String>
+    <sys:String x:Key="ConvertAndSave">Convert &amp; Save as (.ico)</sys:String>
+    <sys:String x:Key="ReadyToConvert">Ready to convert images.</sys:String>
+    <sys:String x:Key="Step1SelectImage">1. Select Image (PNG, JPG)</sys:String>
+    <sys:String x:Key="NoImageSelected">No image selected</sys:String>
+    <sys:String x:Key="BrowseImagesBtn">Browse Images...</sys:String>
+    <sys:String x:Key="Step2SaveLocation">2. Save Location (ICO)</sys:String>
+    <sys:String x:Key="SelectPathBtn">Select Path</sys:String>
+    <sys:String x:Key="ConvertAndSaveBtn">Convert &amp; Save Icon</sys:String>
+    <sys:String x:Key="PleaseSelectPaths">Please select the image and save path first.</sys:String>
+    <sys:String x:Key="IconSaved">Icon converted and saved successfully!</sys:String>
+    <sys:String x:Key="PathEditHint">(Single click to browse, double click to edit path manually)</sys:String>
+
+    <!-- ============ TRAY MENU ============ -->
+    <sys:String x:Key="TrayOpen">Open Crystal Folders</sys:String>
+    <sys:String x:Key="TrayIconConverter">Icon Converter</sys:String>
+    <sys:String x:Key="TrayExit">Exit</sys:String>
+
+    <!-- ============ TOAST ============ -->
+    <sys:String x:Key="SettingsSaved">Settings saved successfully</sys:String>
+    <sys:String x:Key="ImageLoaded">Image loaded</sys:String>
+    <sys:String x:Key="ImageLoadFailed">Failed to load image</sys:String>
+    <sys:String x:Key="IconSavedSuccess">Icon saved successfully</sys:String>
+    <sys:String x:Key="ConversionFailed">Conversion failed</sys:String>
+    <sys:String x:Key="CouldNotOpenLink">Could not open link</sys:String>
+    <sys:String x:Key="CouldNotOpenBrowser">Could not open browser</sys:String>
+    <sys:String x:Key="MinimizedToTray">Minimized to system tray</sys:String>
+    <sys:String x:Key="Error">Error</sys:String>
+
+    <sys:String x:Key="AlreadyRunningTitle">Already Running</sys:String>
+    <sys:String x:Key="AlreadyRunningLine1">Crystal Folders is already running</sys:String>
+    <sys:String x:Key="AlreadyRunningLine2">Check the system tray icon</sys:String>
+
+    <!-- ============ ADDITIONAL UI TEXTS ============ -->
+    <sys:String x:Key="Theme">Theme</sys:String>
+    <sys:String x:Key="Close">Close</sys:String>
+    <sys:String x:Key="SelectFolders">Select Folders</sys:String>
+    <sys:String x:Key="FoldersAdded">Folders added</sys:String>
+    <sys:String x:Key="DuplicatesSkipped">Duplicates skipped</sys:String>
+    <sys:String x:Key="ListAlreadyEmpty">List is already empty</sys:String>
+    <sys:String x:Key="PleaseSelectItems">Please select items to remove</sys:String>
+    <sys:String x:Key="ItemsRemoved">Items removed</sys:String>
+    <sys:String x:Key="FoldersListCleared">Folders list cleared</sys:String>
+    <sys:String x:Key="IconLoaded">Icon loaded successfully</sys:String>
+    <sys:String x:Key="InvalidIconFile">Invalid icon file</sys:String>
+    <sys:String x:Key="RestoreModeActive">Restore mode activated</sys:String>
+    <sys:String x:Key="NormalModeActive">Normal mode activated</sys:String>
+    <sys:String x:Key="ChooseAnIconFirst">Please choose an icon first</sys:String>
+    <sys:String x:Key="ProcessingFolders">Processing folders...</sys:String>
+    <sys:String x:Key="IconsApplied">Icons applied successfully</sys:String>
+    <sys:String x:Key="FoldersHaveBeenRestored">Folders have been restored</sys:String>
+    <sys:String x:Key="FailedToProcess">Failed to process some folders</sys:String>
+    <sys:String x:Key="PortableModeOn">Portable mode enabled</sys:String>
+    <sys:String x:Key="PortableModeOff">Portable mode disabled</sys:String>
+    <sys:String x:Key="ItemsSkipped">Items skipped</sys:String>
+    <sys:String x:Key="DarkModeOn">Dark mode enabled</sys:String>
+    <sys:String x:Key="LightModeOn">Light mode enabled</sys:String>
+    <sys:String x:Key="Portable">Portable</sys:String>
+    <sys:String x:Key="Normal">Normal</sys:String>
+
+
+</ResourceDictionary>

@@ -1,0 +1,182 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ============ DIRECCIÓN Y FUENTE ============ -->
+    <FlowDirection x:Key="AppFlowDirection">LeftToRight</FlowDirection>
+
+    <!-- ============ IDENTIDAD DE LA APLICACIÓN ============ -->
+    <sys:String x:Key="AppTitle">Crystal Folders</sys:String>
+    <sys:String x:Key="AppSettings">Configuración de la aplicación</sys:String>
+    <sys:String x:Key="AboutApp">Acerca de</sys:String>
+
+    <!-- ============ VENTANA PRINCIPAL ============ -->
+    <sys:String x:Key="ManageFolders">Administrar carpetas</sys:String>
+    <sys:String x:Key="DragHere">Arrastra y suelta carpetas aquí</sys:String>
+    <sys:String x:Key="DragHereSub">O haz clic en Examinar para seleccionar</sys:String>
+    <sys:String x:Key="Browse">Examinar</sys:String>
+    <sys:String x:Key="Remove">Eliminar</sys:String>
+    <sys:String x:Key="RemoveAll">Eliminar todo</sys:String>
+    <sys:String x:Key="Folders">Carpetas</sys:String>
+    <sys:String x:Key="SubFolders">Subcarpetas</sys:String>
+    <sys:String x:Key="SubFoldersRestoreMode">Incluir subcarpetas</sys:String>
+    <sys:String x:Key="SubFoldersRestoreDesc">Los iconos personalizados también se eliminarán de las subcarpetas</sys:String>
+    <sys:String x:Key="AppSignature">Icono de carpeta por: Crystal Folders</sys:String>
+    <sys:String x:Key="IniComment2">Desarrollador</sys:String>
+    <sys:String x:Key="ClearCache">Limpiar caché de iconos</sys:String>
+    <sys:String x:Key="ClearingCache">Limpiando caché de iconos...</sys:String>
+    <sys:String x:Key="CacheClearedSuccess">¡Caché de iconos limpiado correctamente! Explorador reiniciado.</sys:String>
+    <sys:String x:Key="CacheClearFailed">Error al limpiar la caché de iconos. Intenta ejecutar como administrador.</sys:String>
+    <sys:String x:Key="Confirm">Confirmar</sys:String>
+    <sys:String x:Key="ClearCacheWarning">Esto reiniciará el Explorador de Windows. Guarda tu trabajo antes de continuar.</sys:String>
+    <sys:String x:Key="Yes">Sí</sys:String>
+    <sys:String x:Key="No">No</sys:String>
+    <sys:String x:Key="SubFoldersIncluded">Incluir subcarpetas</sys:String>
+    <sys:String x:Key="SubFoldersIncludedDesc">El icono se aplicará a todas las subcarpetas</sys:String>
+    <sys:String x:Key="SubFoldersIncludedToast">{0} subcarpetas incluidas</sys:String>
+    <sys:String x:Key="SubFoldersRestoreToast">Se restaurarán {0} subcarpetas</sys:String>
+    <sys:String x:Key="SubFoldersExcluded">Subcarpetas excluidas</sys:String>
+
+    <!-- ============ VISTA PREVIA DEL ICONO ============ -->
+    <sys:String x:Key="IconPreview">Vista previa del icono</sys:String>
+    <sys:String x:Key="ChooseIcon">Elegir icono</sys:String>
+    <sys:String x:Key="Restore">Restaurar</sys:String>
+    <sys:String x:Key="NormalMode">Modo normal</sys:String>
+    <sys:String x:Key="RestoreToDefault">Restaurar a valores predeterminados</sys:String>
+    <sys:String x:Key="IconConverter">Convertidor de iconos</sys:String>
+    <sys:String x:Key="IconFiles">Archivos de iconos</sys:String>
+
+    <!-- ============ PANEL DE CONFIGURACIÓN ============ -->
+    <sys:String x:Key="Settings">Configuración</sys:String>
+    <sys:String x:Key="IncludeSubfolders">Incluir subcarpetas</sys:String>
+    <sys:String x:Key="IncludeSubfoldersDesc">Aplicar icono a la estructura interna de carpetas</sys:String>
+    <sys:String x:Key="PortableMode">Modo portátil</sys:String>
+    <sys:String x:Key="PortableModeDesc">Guardar la configuración junto a la aplicación</sys:String>
+    <sys:String x:Key="ApplyCustomization">Aplicar personalización</sys:String>
+
+    <sys:String x:Key="ContextMenuHelp">Ayuda - Integración del menú contextual</sys:String>
+    <sys:String x:Key="ContextMenuHelpTitle">Integración del menú contextual</sys:String>
+    <sys:String x:Key="ContextMenuHelpDesc">Cuando está habilitado, Crystal Folders agrega accesos directos convenientes a su menú contextual de Windows, lo que le permite acceder rápidamente a las funciones clave desde cualquier lugar.</sys:String>
+    <sys:String x:Key="ContextMenuFolders">Carpetas</sys:String>
+    <sys:String x:Key="ContextMenuFoldersDesc">Haga clic derecho en cualquier carpeta para personalizar su icono al instante</sys:String>
+    <sys:String x:Key="ContextMenuImages">Imágenes</sys:String>
+    <sys:String x:Key="ContextMenuImagesDesc">Haga clic derecho en PNG, JPG o BMP para convertirlos a ICO</sys:String>
+    <sys:String x:Key="ContextMenuNote">Nota: Los cambios surten efecto después de hacer clic en "Aplicar cambios"</sys:String>
+
+    <!-- ============ AYUDA MODO PORTÁTIL ============ -->
+    <sys:String x:Key="PortableHelpTitle">Instrucciones del modo portátil</sys:String>
+    <sys:String x:Key="PortableHelpDesc">El icono se guardará directamente dentro de la carpeta para que mantenga su apariencia cuando se mueva a cualquier otro dispositivo.</sys:String>
+    <sys:String x:Key="OK">Aceptar</sys:String>
+
+    <!-- ============ VENTANA DE CONFIGURACIÓN ============ -->
+    <sys:String x:Key="General">GENERAL</sys:String>
+    <sys:String x:Key="Language">Idioma</sys:String>
+    <sys:String x:Key="ChoosePreferredInterface">Elige tu idioma de interfaz preferido</sys:String>
+    <sys:String x:Key="EnglishUS">Inglés (EE. UU.)</sys:String>
+    <sys:String x:Key="Arabic">Árabe</sys:String>
+    <sys:String x:Key="Spanish">Español</sys:String>
+    <sys:String x:Key="French">Francés</sys:String>
+    <sys:String x:Key="Russian">Ruso</sys:String>
+
+    <sys:String x:Key="Appearance">APARIENCIA</sys:String>
+    <sys:String x:Key="DarkMode">Modo oscuro</sys:String>
+    <sys:String x:Key="GlobalTheme">Tema global de la aplicación</sys:String>
+    <sys:String x:Key="WindowOpacity">Opacidad de la ventana</sys:String>
+    <sys:String x:Key="AdjustTransparency">Ajustar el nivel de transparencia de la ventana</sys:String>
+
+    <sys:String x:Key="System">SISTEMA</sys:String>
+    <sys:String x:Key="RunAtStartup">Ejecutar al inicio</sys:String>
+    <sys:String x:Key="LaunchAutomatically">Iniciar automáticamente con Windows</sys:String>
+    <sys:String x:Key="MinimizeToTray">Minimizar a la bandeja</sys:String>
+    <sys:String x:Key="CloseToTrayDescription">Cerrar a la bandeja del sistema en lugar de salir</sys:String>
+
+    <sys:String x:Key="ContextMenuIntegration">Integración del menú contextual</sys:String>
+    <sys:String x:Key="ShowInRightClickMenu">Mostrar en el menú contextual</sys:String>
+    <sys:String x:Key="CustomizeWithCrystalFolders">Personalizar con Crystal Folders</sys:String>
+    <sys:String x:Key="ConvertToIcon">Convertir a icono</sys:String>
+    <sys:String x:Key="ContextMenuEnabled">Menú contextual activado correctamente</sys:String>
+    <sys:String x:Key="ContextMenuDisabled">Menú contextual desactivado</sys:String>
+    <sys:String x:Key="ContextMenuError">Error del menú contextual</sys:String>
+
+    <sys:String x:Key="SoftwareVersion">Crystal Folders v3.0</sys:String>
+    <sys:String x:Key="ChangesSavedOnClose">Los cambios se guardarán al cerrar</sys:String>
+    <sys:String x:Key="ApplyChanges">Aplicar cambios</sys:String>
+    <sys:String x:Key="ReportBug">Reportar un error</sys:String>
+
+    <!-- ============ VENTANA ACERCA DE ============ -->
+    <sys:String x:Key="VersionBuild">Versión 3.0 • Compilación 2026</sys:String>
+    <sys:String x:Key="ProfessionalSolution">Una solución profesional para personalizar iconos de carpetas con estilo y facilidad. Diseñada para diseñadores y usuarios avanzados.</sys:String>
+    <sys:String x:Key="Website">Sitio web</sys:String>
+    <sys:String x:Key="Donate">Donar</sys:String>
+    <sys:String x:Key="Email">Correo electrónico</sys:String>
+    <sys:String x:Key="MadeWithLove_Part1">Hecho con</sys:String>
+    <sys:String x:Key="MadeWithLove_Part2">por</sys:String>
+    <sys:String x:Key="DeveloperName">Tarek Sadek</sys:String>
+    <sys:String x:Key="LeadDesigner">Diseñador principal y desarrollador</sys:String>
+    <sys:String x:Key="Activated">Activado</sys:String>
+    <sys:String x:Key="AllRightsReserved">© 2026 Todos los derechos reservados</sys:String>
+
+    <!-- ============ CONVERTIDOR DE ICONOS ============ -->
+    <sys:String x:Key="IconConverterTitle">Convertidor de imagen a icono</sys:String>
+    <sys:String x:Key="DragImageHere">Arrastra una imagen aquí (PNG, JPG)</sys:String>
+    <sys:String x:Key="OrBrowseImage">O haz clic para examinar desde tu dispositivo</sys:String>
+    <sys:String x:Key="ConvertAndSave">Convertir y guardar como (.ico)</sys:String>
+    <sys:String x:Key="ReadyToConvert">Listo para convertir imágenes.</sys:String>
+    <sys:String x:Key="Step1SelectImage">1. Seleccionar imagen (PNG, JPG)</sys:String>
+    <sys:String x:Key="NoImageSelected">No se seleccionó ninguna imagen</sys:String>
+    <sys:String x:Key="BrowseImagesBtn">Examinar imágenes...</sys:String>
+    <sys:String x:Key="Step2SaveLocation">2. Ubicación de guardado (ICO)</sys:String>
+    <sys:String x:Key="SelectPathBtn">Seleccionar ruta</sys:String>
+    <sys:String x:Key="ConvertAndSaveBtn">Convertir y guardar icono</sys:String>
+    <sys:String x:Key="PleaseSelectPaths">Primero selecciona la imagen y la ruta de guardado.</sys:String>
+    <sys:String x:Key="IconSaved">¡Icono convertido y guardado correctamente!</sys:String>
+    <sys:String x:Key="PathEditHint">(Un clic para examinar, doble clic para editar la ruta manualmente)</sys:String>
+
+    <!-- ============ MENÚ DE LA BANDEJA ============ -->
+    <sys:String x:Key="TrayOpen">Abrir Crystal Folders</sys:String>
+    <sys:String x:Key="TrayIconConverter">Convertidor de iconos</sys:String>
+    <sys:String x:Key="TrayExit">Salir</sys:String>
+
+    <!-- ============ NOTIFICACIONES ============ -->
+    <sys:String x:Key="SettingsSaved">Configuración guardada correctamente</sys:String>
+    <sys:String x:Key="ImageLoaded">Imagen cargada</sys:String>
+    <sys:String x:Key="ImageLoadFailed">Error al cargar la imagen</sys:String>
+    <sys:String x:Key="IconSavedSuccess">Icono guardado correctamente</sys:String>
+    <sys:String x:Key="ConversionFailed">Error en la conversión</sys:String>
+    <sys:String x:Key="CouldNotOpenLink">No se pudo abrir el enlace</sys:String>
+    <sys:String x:Key="CouldNotOpenBrowser">No se pudo abrir el navegador</sys:String>
+    <sys:String x:Key="MinimizedToTray">Minimizado a la bandeja del sistema</sys:String>
+    <sys:String x:Key="Error">Error</sys:String>
+
+    <sys:String x:Key="AlreadyRunningTitle">Ya en ejecución</sys:String>
+    <sys:String x:Key="AlreadyRunningLine1">Crystal Folders ya está en ejecución</sys:String>
+    <sys:String x:Key="AlreadyRunningLine2">Revisa el icono de la bandeja del sistema</sys:String>
+
+    <!-- ============ TEXTOS ADICIONALES DE LA INTERFAZ ============ -->
+    <sys:String x:Key="Theme">Tema</sys:String>
+    <sys:String x:Key="Close">Cerrar</sys:String>
+    <sys:String x:Key="SelectFolders">Seleccionar carpetas</sys:String>
+    <sys:String x:Key="FoldersAdded">Carpetas agregadas</sys:String>
+    <sys:String x:Key="DuplicatesSkipped">Duplicados omitidos</sys:String>
+    <sys:String x:Key="ListAlreadyEmpty">La lista ya está vacía</sys:String>
+    <sys:String x:Key="PleaseSelectItems">Selecciona elementos para eliminar</sys:String>
+    <sys:String x:Key="ItemsRemoved">Elementos eliminados</sys:String>
+    <sys:String x:Key="FoldersListCleared">Lista de carpetas borrada</sys:String>
+    <sys:String x:Key="IconLoaded">Icono cargado correctamente</sys:String>
+    <sys:String x:Key="InvalidIconFile">Archivo de icono inválido</sys:String>
+    <sys:String x:Key="RestoreModeActive">Modo de restauración activado</sys:String>
+    <sys:String x:Key="NormalModeActive">Modo normal activado</sys:String>
+    <sys:String x:Key="ChooseAnIconFirst">Primero elige un icono</sys:String>
+    <sys:String x:Key="ProcessingFolders">Procesando carpetas...</sys:String>
+    <sys:String x:Key="IconsApplied">Iconos aplicados correctamente</sys:String>
+    <sys:String x:Key="FoldersHaveBeenRestored">Las carpetas han sido restauradas</sys:String>
+    <sys:String x:Key="FailedToProcess">Error al procesar algunas carpetas</sys:String>
+    <sys:String x:Key="PortableModeOn">Modo portátil activado</sys:String>
+    <sys:String x:Key="PortableModeOff">Modo portátil desactivado</sys:String>
+    <sys:String x:Key="ItemsSkipped">Elementos omitidos</sys:String>
+    <sys:String x:Key="DarkModeOn">Modo oscuro activado</sys:String>
+    <sys:String x:Key="LightModeOn">Modo claro activado</sys:String>
+    <sys:String x:Key="Portable">Portátil</sys:String>
+    <sys:String x:Key="Normal">Normal</sys:String>
+
+</ResourceDictionary>

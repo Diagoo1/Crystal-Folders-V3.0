@@ -1,0 +1,182 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ============ НАПРАВЛЕНИЕ И ШРИФТ ============ -->
+    <FlowDirection x:Key="AppFlowDirection">LeftToRight</FlowDirection>
+
+    <!-- ============ ИДЕНТИФИКАЦИЯ ПРИЛОЖЕНИЯ ============ -->
+    <sys:String x:Key="AppTitle">Crystal Folders</sys:String>
+    <sys:String x:Key="AppSettings">Настройки приложения</sys:String>
+    <sys:String x:Key="AboutApp">О программе</sys:String>
+
+    <!-- ============ ГЛАВНОЕ ОКНО ============ -->
+    <sys:String x:Key="ManageFolders">Управление папками</sys:String>
+    <sys:String x:Key="DragHere">Перетащите папки сюда</sys:String>
+    <sys:String x:Key="DragHereSub">Или нажмите Обзор для выбора</sys:String>
+    <sys:String x:Key="Browse">Обзор</sys:String>
+    <sys:String x:Key="Remove">Удалить</sys:String>
+    <sys:String x:Key="RemoveAll">Удалить все</sys:String>
+    <sys:String x:Key="Folders">Папки</sys:String>
+    <sys:String x:Key="SubFolders">Подпапки</sys:String>
+    <sys:String x:Key="SubFoldersRestoreMode">Включая подпапки</sys:String>
+    <sys:String x:Key="SubFoldersRestoreDesc">Пользовательские значки также будут удалены из подпапок</sys:String>
+    <sys:String x:Key="AppSignature">Значок папки: Crystal Folders</sys:String>
+    <sys:String x:Key="IniComment2">Разработчик</sys:String>
+    <sys:String x:Key="ClearCache">Очистить кэш значков</sys:String>
+    <sys:String x:Key="ClearingCache">Очистка кэша значков...</sys:String>
+    <sys:String x:Key="CacheClearedSuccess">Кэш значков успешно очищен! Проводник перезапущен.</sys:String>
+    <sys:String x:Key="CacheClearFailed">Не удалось очистить кэш значков. Попробуйте запустить от имени администратора.</sys:String>
+    <sys:String x:Key="Confirm">Подтверждение</sys:String>
+    <sys:String x:Key="ClearCacheWarning">Это перезапустит Проводник Windows. Пожалуйста, сохраните свою работу перед продолжением.</sys:String>
+    <sys:String x:Key="Yes">Да</sys:String>
+    <sys:String x:Key="No">Нет</sys:String>
+    <sys:String x:Key="SubFoldersIncluded">Включить подпапки</sys:String>
+    <sys:String x:Key="SubFoldersIncludedDesc">Значок будет применен ко всем подпапкам</sys:String>
+    <sys:String x:Key="SubFoldersIncludedToast">Включено подпапок: {0}</sys:String>
+    <sys:String x:Key="SubFoldersRestoreToast">Будет восстановлено подпапок: {0}</sys:String>
+    <sys:String x:Key="SubFoldersExcluded">Подпапки исключены</sys:String>
+
+    <!-- ============ ПРЕДПРОСМОТР ЗНАЧКА ============ -->
+    <sys:String x:Key="IconPreview">Предпросмотр значка</sys:String>
+    <sys:String x:Key="ChooseIcon">Выбрать значок</sys:String>
+    <sys:String x:Key="Restore">Восстановить</sys:String>
+    <sys:String x:Key="NormalMode">Обычный режим</sys:String>
+    <sys:String x:Key="RestoreToDefault">Восстановить по умолчанию</sys:String>
+    <sys:String x:Key="IconConverter">Конвертер значков</sys:String>
+    <sys:String x:Key="IconFiles">Файлы значков</sys:String>
+
+    <!-- ============ ПАНЕЛЬ НАСТРОЕК ============ -->
+    <sys:String x:Key="Settings">Настройки</sys:String>
+    <sys:String x:Key="IncludeSubfolders">Включая подпапки</sys:String>
+    <sys:String x:Key="IncludeSubfoldersDesc">Применить значок к внутренней структуре папок</sys:String>
+    <sys:String x:Key="PortableMode">Портативный режим</sys:String>
+    <sys:String x:Key="PortableModeDesc">Сохранять настройки рядом с приложением</sys:String>
+    <sys:String x:Key="ApplyCustomization">Применить настройки</sys:String>
+
+    <sys:String x:Key="ContextMenuHelp">Справка - Интеграция в контекстное меню</sys:String>
+    <sys:String x:Key="ContextMenuHelpTitle">Интеграция в контекстное меню</sys:String>
+    <sys:String x:Key="ContextMenuHelpDesc">При включении Crystal Folders добавляет удобные ярлыки в контекстное меню Windows, позволяя быстро получать доступ к основным функциям из любого места.</sys:String>
+    <sys:String x:Key="ContextMenuFolders">Папки</sys:String>
+    <sys:String x:Key="ContextMenuFoldersDesc">Щелкните правой кнопкой мыши любую папку, чтобы мгновенно настроить ее значок</sys:String>
+    <sys:String x:Key="ContextMenuImages">Изображения</sys:String>
+    <sys:String x:Key="ContextMenuImagesDesc">Щелкните правой кнопкой мыши PNG, JPG или BMP для преобразования в ICO</sys:String>
+    <sys:String x:Key="ContextMenuNote">Примечание: Изменения вступают в силу после нажатия «Применить изменения»</sys:String>
+
+    <!-- ============ ПОМОЩЬ ПОРТАТИВНОГО РЕЖИМА ============ -->
+    <sys:String x:Key="PortableHelpTitle">Инструкции для портативного режима</sys:String>
+    <sys:String x:Key="PortableHelpDesc">Значок будет сохранен непосредственно внутри папки, чтобы он сохранял свой внешний вид при перемещении на любое другое устройство.</sys:String>
+    <sys:String x:Key="OK">OK</sys:String>
+
+    <!-- ============ ОКНО НАСТРОЕК ============ -->
+    <sys:String x:Key="General">ОБЩИЕ</sys:String>
+    <sys:String x:Key="Language">Язык</sys:String>
+    <sys:String x:Key="ChoosePreferredInterface">Выберите предпочитаемый язык интерфейса</sys:String>
+    <sys:String x:Key="EnglishUS">Английский (США)</sys:String>
+    <sys:String x:Key="Arabic">Арабский</sys:String>
+    <sys:String x:Key="Spanish">Испанский</sys:String>
+    <sys:String x:Key="French">Французский</sys:String>
+    <sys:String x:Key="Russian">Русский</sys:String>
+
+    <sys:String x:Key="Appearance">ВНЕШНИЙ ВИД</sys:String>
+    <sys:String x:Key="DarkMode">Тёмный режим</sys:String>
+    <sys:String x:Key="GlobalTheme">Глобальная тема приложения</sys:String>
+    <sys:String x:Key="WindowOpacity">Прозрачность окна</sys:String>
+    <sys:String x:Key="AdjustTransparency">Настройка уровня прозрачности окна</sys:String>
+
+    <sys:String x:Key="System">СИСТЕМА</sys:String>
+    <sys:String x:Key="RunAtStartup">Запускать при старте</sys:String>
+    <sys:String x:Key="LaunchAutomatically">Запускать автоматически с Windows</sys:String>
+    <sys:String x:Key="MinimizeToTray">Сворачивать в трей</sys:String>
+    <sys:String x:Key="CloseToTrayDescription">Закрывать в системный трей вместо выхода</sys:String>
+
+    <sys:String x:Key="ContextMenuIntegration">Интеграция в контекстное меню</sys:String>
+    <sys:String x:Key="ShowInRightClickMenu">Показывать в контекстном меню</sys:String>
+    <sys:String x:Key="CustomizeWithCrystalFolders">Настроить с помощью Crystal Folders</sys:String>
+    <sys:String x:Key="ConvertToIcon">Конвертировать в значок</sys:String>
+    <sys:String x:Key="ContextMenuEnabled">Контекстное меню успешно включено</sys:String>
+    <sys:String x:Key="ContextMenuDisabled">Контекстное меню отключено</sys:String>
+    <sys:String x:Key="ContextMenuError">Ошибка контекстного меню</sys:String>
+
+    <sys:String x:Key="SoftwareVersion">Crystal Folders v3.0</sys:String>
+    <sys:String x:Key="ChangesSavedOnClose">Изменения будут сохранены при закрытии</sys:String>
+    <sys:String x:Key="ApplyChanges">Применить изменения</sys:String>
+    <sys:String x:Key="ReportBug">Сообщить об ошибке</sys:String>
+
+    <!-- ============ ОКНО О ПРОГРАММЕ ============ -->
+    <sys:String x:Key="VersionBuild">Версия 3.0 • Сборка 2026</sys:String>
+    <sys:String x:Key="ProfessionalSolution">Профессиональное решение для настройки значков папок со стилем и лёгкостью. Создано для дизайнеров и опытных пользователей.</sys:String>
+    <sys:String x:Key="Website">Веб-сайт</sys:String>
+    <sys:String x:Key="Donate">Пожертвовать</sys:String>
+    <sys:String x:Key="Email">Электронная почта</sys:String>
+    <sys:String x:Key="MadeWithLove_Part1">Сделано с</sys:String>
+    <sys:String x:Key="MadeWithLove_Part2">к</sys:String>
+    <sys:String x:Key="DeveloperName">Тарек Садек</sys:String>
+    <sys:String x:Key="LeadDesigner">Ведущий дизайнер и разработчик</sys:String>
+    <sys:String x:Key="Activated">Активировано</sys:String>
+    <sys:String x:Key="AllRightsReserved">© 2026 Все права защищены</sys:String>
+
+    <!-- ============ КОНВЕРТЕР ЗНАЧКОВ ============ -->
+    <sys:String x:Key="IconConverterTitle">Конвертер изображений в значки</sys:String>
+    <sys:String x:Key="DragImageHere">Перетащите изображение сюда (PNG, JPG)</sys:String>
+    <sys:String x:Key="OrBrowseImage">Или нажмите для выбора с вашего устройства</sys:String>
+    <sys:String x:Key="ConvertAndSave">Конвертировать и сохранить как (.ico)</sys:String>
+    <sys:String x:Key="ReadyToConvert">Готов к конвертации изображений.</sys:String>
+    <sys:String x:Key="Step1SelectImage">1. Выберите изображение (PNG, JPG)</sys:String>
+    <sys:String x:Key="NoImageSelected">Изображение не выбрано</sys:String>
+    <sys:String x:Key="BrowseImagesBtn">Обзор изображений...</sys:String>
+    <sys:String x:Key="Step2SaveLocation">2. Место сохранения (ICO)</sys:String>
+    <sys:String x:Key="SelectPathBtn">Выбрать путь</sys:String>
+    <sys:String x:Key="ConvertAndSaveBtn">Конвертировать и сохранить значок</sys:String>
+    <sys:String x:Key="PleaseSelectPaths">Пожалуйста, сначала выберите изображение и путь для сохранения.</sys:String>
+    <sys:String x:Key="IconSaved">Значок успешно конвертирован и сохранён!</sys:String>
+    <sys:String x:Key="PathEditHint">(Один клик для выбора, двойной клик для ручного редактирования пути)</sys:String>
+
+    <!-- ============ МЕНЮ ТРЕЯ ============ -->
+    <sys:String x:Key="TrayOpen">Открыть Crystal Folders</sys:String>
+    <sys:String x:Key="TrayIconConverter">Конвертер значков</sys:String>
+    <sys:String x:Key="TrayExit">Выход</sys:String>
+
+    <!-- ============ УВЕДОМЛЕНИЯ ============ -->
+    <sys:String x:Key="SettingsSaved">Настройки успешно сохранены</sys:String>
+    <sys:String x:Key="ImageLoaded">Изображение загружено</sys:String>
+    <sys:String x:Key="ImageLoadFailed">Не удалось загрузить изображение</sys:String>
+    <sys:String x:Key="IconSavedSuccess">Значок успешно сохранён</sys:String>
+    <sys:String x:Key="ConversionFailed">Ошибка конвертации</sys:String>
+    <sys:String x:Key="CouldNotOpenLink">Не удалось открыть ссылку</sys:String>
+    <sys:String x:Key="CouldNotOpenBrowser">Не удалось открыть браузер</sys:String>
+    <sys:String x:Key="MinimizedToTray">Свёрнуто в системный трей</sys:String>
+    <sys:String x:Key="Error">Ошибка</sys:String>
+
+    <sys:String x:Key="AlreadyRunningTitle">Уже запущено</sys:String>
+    <sys:String x:Key="AlreadyRunningLine1">Crystal Folders уже запущено</sys:String>
+    <sys:String x:Key="AlreadyRunningLine2">Проверьте значок в системном трее</sys:String>
+
+    <!-- ============ ДОПОЛНИТЕЛЬНЫЕ ТЕКСТЫ ИНТЕРФЕЙСА ============ -->
+    <sys:String x:Key="Theme">Тема</sys:String>
+    <sys:String x:Key="Close">Закрыть</sys:String>
+    <sys:String x:Key="SelectFolders">Выбрать папки</sys:String>
+    <sys:String x:Key="FoldersAdded">Папки добавлены</sys:String>
+    <sys:String x:Key="DuplicatesSkipped">Дубликаты пропущены</sys:String>
+    <sys:String x:Key="ListAlreadyEmpty">Список уже пуст</sys:String>
+    <sys:String x:Key="PleaseSelectItems">Пожалуйста, выберите элементы для удаления</sys:String>
+    <sys:String x:Key="ItemsRemoved">Элементы удалены</sys:String>
+    <sys:String x:Key="FoldersListCleared">Список папок очищен</sys:String>
+    <sys:String x:Key="IconLoaded">Значок успешно загружен</sys:String>
+    <sys:String x:Key="InvalidIconFile">Неверный файл значка</sys:String>
+    <sys:String x:Key="RestoreModeActive">Режим восстановления активирован</sys:String>
+    <sys:String x:Key="NormalModeActive">Обычный режим активирован</sys:String>
+    <sys:String x:Key="ChooseAnIconFirst">Пожалуйста, сначала выберите значок</sys:String>
+    <sys:String x:Key="ProcessingFolders">Обработка папок...</sys:String>
+    <sys:String x:Key="IconsApplied">Значки успешно применены</sys:String>
+    <sys:String x:Key="FoldersHaveBeenRestored">Папки были восстановлены</sys:String>
+    <sys:String x:Key="FailedToProcess">Не удалось обработать некоторые папки</sys:String>
+    <sys:String x:Key="PortableModeOn">Портативный режим включён</sys:String>
+    <sys:String x:Key="PortableModeOff">Портативный режим отключён</sys:String>
+    <sys:String x:Key="ItemsSkipped">Элементы пропущены</sys:String>
+    <sys:String x:Key="DarkModeOn">Тёмный режим включён</sys:String>
+    <sys:String x:Key="LightModeOn">Светлый режим включён</sys:String>
+    <sys:String x:Key="Portable">Портативный</sys:String>
+    <sys:String x:Key="Normal">Обычный</sys:String>
+
+</ResourceDictionary>

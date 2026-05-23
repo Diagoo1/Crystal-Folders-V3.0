@@ -1,0 +1,182 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ============ الاتجاه والخط ============ -->
+    <FlowDirection x:Key="AppFlowDirection">RightToLeft</FlowDirection>
+
+    <!-- ============ هوية التطبيق ============ -->
+    <sys:String x:Key="AppTitle">كريستال فولدرز</sys:String>
+    <sys:String x:Key="AppSettings">إعدادات التطبيق</sys:String>
+    <sys:String x:Key="AboutApp">حول</sys:String>
+
+    <!-- ============ النافذة الرئيسية ============ -->
+    <sys:String x:Key="ManageFolders">إدارة المجلدات</sys:String>
+    <sys:String x:Key="DragHere">اسحب وأفلت المجلدات هنا</sys:String>
+    <sys:String x:Key="DragHereSub">أو انقر تصفح للاختيار</sys:String>
+    <sys:String x:Key="Browse">تصفح</sys:String>
+    <sys:String x:Key="Remove">إزالة</sys:String>
+    <sys:String x:Key="RemoveAll">إزالة الكل</sys:String>
+    <sys:String x:Key="Folders">المجلدات</sys:String>
+    <sys:String x:Key="SubFolders">المجلدات الفرعية</sys:String>
+    <sys:String x:Key="SubFoldersRestoreMode">تضمين المجلدات الفرعية</sys:String>
+    <sys:String x:Key="SubFoldersRestoreDesc">سيتم إزالة الأيقونات المخصصة من المجلدات الفرعية أيضاً</sys:String>
+    <sys:String x:Key="AppSignature">أيقونة المجلد بواسطة: كريستال فولدرز</sys:String>
+    <sys:String x:Key="IniComment2">المطور</sys:String>
+    <sys:String x:Key="ClearCache">مسح ذاكرة التخزين المؤقت للأيقونات</sys:String>
+    <sys:String x:Key="ClearingCache">جاري مسح ذاكرة التخزين المؤقت...</sys:String>
+    <sys:String x:Key="CacheClearedSuccess">تم مسح ذاكرة التخزين المؤقت بنجاح! تم إعادة تشغيل المستكشف.</sys:String>
+    <sys:String x:Key="CacheClearFailed">فشل مسح ذاكرة التخزين المؤقت. حاول التشغيل كمسؤول.</sys:String>
+    <sys:String x:Key="Confirm">تأكيد</sys:String>
+    <sys:String x:Key="ClearCacheWarning">سيؤدي هذا إلى إعادة تشغيل مستكشف الويندوز. يرجى حفظ عملك قبل المتابعة.</sys:String>
+    <sys:String x:Key="Yes">نعم</sys:String>
+    <sys:String x:Key="No">لا</sys:String>
+    <sys:String x:Key="SubFoldersIncluded">تضمين المجلدات الفرعية</sys:String>
+    <sys:String x:Key="SubFoldersIncludedDesc">سيتم تطبيق الأيقونة على جميع المجلدات الفرعية</sys:String>
+    <sys:String x:Key="SubFoldersIncludedToast">تم تضمين {0} مجلد فرعي</sys:String>
+    <sys:String x:Key="SubFoldersRestoreToast">سيتم استعادة {0} مجلد فرعي</sys:String>
+    <sys:String x:Key="SubFoldersExcluded">تم إلغاء تضمين المجلدات الفرعية</sys:String>
+
+    <!-- ============ معاينة الأيقونة ============ -->
+    <sys:String x:Key="IconPreview">معاينة الأيقونة</sys:String>
+    <sys:String x:Key="ChooseIcon">اختر أيقونة</sys:String>
+    <sys:String x:Key="Restore">استعادة</sys:String>
+    <sys:String x:Key="NormalMode">الوضع العادي</sys:String>
+    <sys:String x:Key="RestoreToDefault">استعادة إلى الوضع الافتراضي</sys:String>
+    <sys:String x:Key="IconConverter">محول الأيقونات</sys:String>
+    <sys:String x:Key="IconFiles">ملفات الأيقونات</sys:String>
+
+    <!-- ============ لوحة الإعدادات ============ -->
+    <sys:String x:Key="Settings">الإعدادات</sys:String>
+    <sys:String x:Key="IncludeSubfolders">تضمين المجلدات الفرعية</sys:String>
+    <sys:String x:Key="IncludeSubfoldersDesc">تطبيق الأيقونة على هيكل المجلدات الداخلي</sys:String>
+    <sys:String x:Key="PortableMode">الوضع المحمول</sys:String>
+    <sys:String x:Key="PortableModeDesc">حفظ الإعدادات بجانب التطبيق</sys:String>
+    <sys:String x:Key="ApplyCustomization">تطبيق التخصيص</sys:String>
+
+    <sys:String x:Key="ContextMenuHelp">مساعدة - قائمة النقر الأيمن</sys:String>
+    <sys:String x:Key="ContextMenuHelpTitle">إضافة قائمة النقر الأيمن</sys:String>
+    <sys:String x:Key="ContextMenuHelpDesc">عند التفعيل، يضيف Crystal Folders اختصارات مناسبة لقائمة النقر الأيمن في Windows، مما يتيح لك الوصول السريع إلى الميزات الرئيسية من أي مكان.</sys:String>
+    <sys:String x:Key="ContextMenuFolders">المجلدات</sys:String>
+    <sys:String x:Key="ContextMenuFoldersDesc">انقر بزر الماوس الأيمن على أي مجلد لتغيير أيقونته فوراً</sys:String>
+    <sys:String x:Key="ContextMenuImages">الصور</sys:String>
+    <sys:String x:Key="ContextMenuImagesDesc">انقر بزر الماوس الأيمن على PNG أو JPG أو BMP لتحويلها إلى أيقونة</sys:String>
+    <sys:String x:Key="ContextMenuNote">ملاحظة: التغييرات تصبح سارية بعد الضغط على "تطبيق التغييرات"</sys:String>
+
+    <!-- ============ مساعدة الوضع المحمول ============ -->
+    <sys:String x:Key="PortableHelpTitle">تعليمات الوضع المحمول</sys:String>
+    <sys:String x:Key="PortableHelpDesc">سيتم حفظ الأيقونة داخل المجلد مباشرة بحيث يحتفظ بمظهره عند نقله إلى أي جهاز آخر.</sys:String>
+    <sys:String x:Key="OK">موافق</sys:String>
+
+    <!-- ============ نافذة الإعدادات ============ -->
+    <sys:String x:Key="General">عام</sys:String>
+    <sys:String x:Key="Language">اللغة</sys:String>
+    <sys:String x:Key="ChoosePreferredInterface">اختر لغة الواجهة المفضلة</sys:String>
+    <sys:String x:Key="EnglishUS">الإنجليزية</sys:String>
+    <sys:String x:Key="Arabic">العربية</sys:String>
+    <sys:String x:Key="Spanish">الإسبانية</sys:String>
+    <sys:String x:Key="French">الفرنسية</sys:String>
+    <sys:String x:Key="Russian">الروسية</sys:String>
+
+    <sys:String x:Key="Appearance">المظهر</sys:String>
+    <sys:String x:Key="DarkMode">الوضع المظلم</sys:String>
+    <sys:String x:Key="GlobalTheme">سمة التطبيق العامة</sys:String>
+    <sys:String x:Key="WindowOpacity">شفافية النافذة</sys:String>
+    <sys:String x:Key="AdjustTransparency">ضبط مستوى شفافية النافذة</sys:String>
+
+    <sys:String x:Key="System">النظام</sys:String>
+    <sys:String x:Key="RunAtStartup">التشغيل عند بدء التشغيل</sys:String>
+    <sys:String x:Key="LaunchAutomatically">التشغيل تلقائياً مع الويندوز</sys:String>
+    <sys:String x:Key="MinimizeToTray">تصغير إلى شريط المهام</sys:String>
+    <sys:String x:Key="CloseToTrayDescription">الإغلاق إلى شريط النظام بدلاً من الخروج</sys:String>
+
+    <sys:String x:Key="ContextMenuIntegration">القائمة المنبثقة بزر الماوس الأيمن</sys:String>
+    <sys:String x:Key="ShowInRightClickMenu">إظهار في قائمة النقر بزر الماوس الأيمن</sys:String>
+    <sys:String x:Key="CustomizeWithCrystalFolders">تخصيص باستخدام كريستال فولدرز</sys:String>
+    <sys:String x:Key="ConvertToIcon">تحويل إلى أيقونة</sys:String>
+    <sys:String x:Key="ContextMenuEnabled">تم تمكين قائمة السياق بنجاح</sys:String>
+    <sys:String x:Key="ContextMenuDisabled">تم تعطيل قائمة السياق</sys:String>
+    <sys:String x:Key="ContextMenuError">خطأ في قائمة السياق</sys:String>
+
+    <sys:String x:Key="SoftwareVersion">كريستال فولدرز الإصدار 3.0</sys:String>
+    <sys:String x:Key="ChangesSavedOnClose">سيتم حفظ التغييرات عند الإغلاق</sys:String>
+    <sys:String x:Key="ApplyChanges">تطبيق التغييرات</sys:String>
+    <sys:String x:Key="ReportBug">الإبلاغ عن خطأ</sys:String>
+
+    <!-- ============ نافذة حول ============ -->
+    <sys:String x:Key="VersionBuild">الإصدار 3.0 • بناء 2026</sys:String>
+    <sys:String x:Key="ProfessionalSolution">حل احترافي لتخصيص أيقونات المجلدات بأناقة وسهولة. صمم للمصممين والمستخدمين المحترفين.</sys:String>
+    <sys:String x:Key="Website">الموقع الإلكتروني</sys:String>
+    <sys:String x:Key="Donate">تبرع</sys:String>
+    <sys:String x:Key="Email">البريد الإلكتروني</sys:String>
+    <sys:String x:Key="MadeWithLove_Part1">صنع بحب</sys:String>
+    <sys:String x:Key="MadeWithLove_Part2">بواسطة</sys:String>
+    <sys:String x:Key="DeveloperName">طارق صادق</sys:String>
+    <sys:String x:Key="LeadDesigner">المصمم الرئيسي والمطور</sys:String>
+    <sys:String x:Key="Activated">تم التنشيط</sys:String>
+    <sys:String x:Key="AllRightsReserved">© 2026 جميع الحقوق محفوظة</sys:String>
+
+    <!-- ============ نافذة محول الأيقونات ============ -->
+    <sys:String x:Key="IconConverterTitle">محول الصورة إلى أيقونة</sys:String>
+    <sys:String x:Key="DragImageHere">اسحب صورة هنا (PNG, JPG)</sys:String>
+    <sys:String x:Key="OrBrowseImage">أو انقر للتصفح من جهازك</sys:String>
+    <sys:String x:Key="ConvertAndSave">تحويل وحفظ كـ (.ico)</sys:String>
+    <sys:String x:Key="ReadyToConvert">جاهز لتحويل الصور.</sys:String>
+    <sys:String x:Key="Step1SelectImage">1. اختر صورة (PNG, JPG)</sys:String>
+    <sys:String x:Key="NoImageSelected">لم يتم اختيار صورة</sys:String>
+    <sys:String x:Key="BrowseImagesBtn">تصفح الصور...</sys:String>
+    <sys:String x:Key="Step2SaveLocation">2. موقع الحفظ (ICO)</sys:String>
+    <sys:String x:Key="SelectPathBtn">اختر المسار</sys:String>
+    <sys:String x:Key="ConvertAndSaveBtn">تحويل وحفظ الأيقونة</sys:String>
+    <sys:String x:Key="PleaseSelectPaths">يرجى اختيار الصورة ومسار الحفظ أولاً.</sys:String>
+    <sys:String x:Key="IconSaved">تم تحويل الأيقونة وحفظها بنجاح!</sys:String>
+    <sys:String x:Key="PathEditHint">(نقرة واحدة للتصفح، نقرة مزدوجة لتحرير المسار يدوياً)</sys:String>
+
+    <!-- ============ قائمة شريط المهام ============ -->
+    <sys:String x:Key="TrayOpen">فتح كريستال فولدرز</sys:String>
+    <sys:String x:Key="TrayIconConverter">محول الأيقونات</sys:String>
+    <sys:String x:Key="TrayExit">خروج</sys:String>
+
+    <!-- ============ الإشعارات ============ -->
+    <sys:String x:Key="SettingsSaved">تم حفظ الإعدادات بنجاح</sys:String>
+    <sys:String x:Key="ImageLoaded">تم تحميل الصورة</sys:String>
+    <sys:String x:Key="ImageLoadFailed">فشل تحميل الصورة</sys:String>
+    <sys:String x:Key="IconSavedSuccess">تم حفظ الأيقونة بنجاح</sys:String>
+    <sys:String x:Key="ConversionFailed">فشل التحويل</sys:String>
+    <sys:String x:Key="CouldNotOpenLink">تعذر فتح الرابط</sys:String>
+    <sys:String x:Key="CouldNotOpenBrowser">تعذر فتح المتصفح</sys:String>
+    <sys:String x:Key="MinimizedToTray">تم التصغير إلى شريط النظام</sys:String>
+    <sys:String x:Key="Error">خطأ</sys:String>
+
+    <sys:String x:Key="AlreadyRunningTitle">يعمل بالفعل</sys:String>
+    <sys:String x:Key="AlreadyRunningLine1">كريستال فولدرز يعمل بالفعل</sys:String>
+    <sys:String x:Key="AlreadyRunningLine2">تحقق من أيقونة شريط النظام</sys:String>
+
+    <!-- ============ نصوص واجهة إضافية ============ -->
+    <sys:String x:Key="Theme">السمة</sys:String>
+    <sys:String x:Key="Close">إغلاق</sys:String>
+    <sys:String x:Key="SelectFolders">اختر مجلدات</sys:String>
+    <sys:String x:Key="FoldersAdded">تمت إضافة المجلدات</sys:String>
+    <sys:String x:Key="DuplicatesSkipped">تم تخطي المكررات</sys:String>
+    <sys:String x:Key="ListAlreadyEmpty">القائمة فارغة بالفعل</sys:String>
+    <sys:String x:Key="PleaseSelectItems">يرجى اختيار عناصر للإزالة</sys:String>
+    <sys:String x:Key="ItemsRemoved">تمت إزالة العناصر</sys:String>
+    <sys:String x:Key="FoldersListCleared">تم مسح قائمة المجلدات</sys:String>
+    <sys:String x:Key="IconLoaded">تم تحميل الأيقونة بنجاح</sys:String>
+    <sys:String x:Key="InvalidIconFile">ملف أيقونة غير صالح</sys:String>
+    <sys:String x:Key="RestoreModeActive">تم تنشيط وضع الاستعادة</sys:String>
+    <sys:String x:Key="NormalModeActive">تم تنشيط الوضع العادي</sys:String>
+    <sys:String x:Key="ChooseAnIconFirst">يرجى اختيار أيقونة أولاً</sys:String>
+    <sys:String x:Key="ProcessingFolders">جاري معالجة المجلدات...</sys:String>
+    <sys:String x:Key="IconsApplied">تم تطبيق الأيقونات بنجاح</sys:String>
+    <sys:String x:Key="FoldersHaveBeenRestored">تمت استعادة المجلدات</sys:String>
+    <sys:String x:Key="FailedToProcess">فشل في معالجة بعض المجلدات</sys:String>
+    <sys:String x:Key="PortableModeOn">تم تمكين الوضع المحمول</sys:String>
+    <sys:String x:Key="PortableModeOff">تم تعطيل الوضع المحمول</sys:String>
+    <sys:String x:Key="ItemsSkipped">تم تخطي العناصر</sys:String>
+    <sys:String x:Key="DarkModeOn">تم تمكين الوضع المظلم</sys:String>
+    <sys:String x:Key="LightModeOn">تم تمكين الوضع الفاتح</sys:String>
+    <sys:String x:Key="Portable">محمول</sys:String>
+    <sys:String x:Key="Normal">عادي</sys:String>
+
+</ResourceDictionary>
